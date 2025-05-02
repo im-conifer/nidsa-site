@@ -1,4 +1,40 @@
 * {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #231f20;
+  margin: 0;
+}
+
+.small {
+  font-size: 18px;
+}
+
+.medium {
+  font-size: 24px;
+}
+
+.large {
+  font-size: 36px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f04c53;
+  margin: 0;
+  padding: 20px 50px;
+}
+
+.header-left {
+  font-weight: bold;
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-right a {
+  text-decoration: none;
 }
