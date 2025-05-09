@@ -29,7 +29,14 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  padding: 20px 20vw;
+  padding: 20px;
+}
+
+header,
+.main-heading,
+.description {
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
 
 .bold {
@@ -56,11 +63,6 @@ header {
   gap: 50px;
 }
 
-.main-heading,
-.description {
-  max-width: 60vw;
-}
-
 .image {
   display: flex;
   flex-direction: column;
@@ -70,4 +72,13 @@ header {
 figcaption {
   margin: 0;
   font-style: italic;
+}
+
+@media (width <= 960px) {
+  header,
+  .main-heading,
+  .description {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
