@@ -9,6 +9,10 @@
   background-color: #ec1f27;
 }
 
+.text-white {
+  color: white;
+}
+
 .small {
   font-size: 18px;
 }
@@ -32,11 +36,6 @@ header {
   font-weight: bold;
 }
 
-.header-left,
-.header-right a {
-  color: white;
-}
-
 .header-right {
   display: flex;
   gap: 20px;
@@ -45,6 +44,7 @@ header {
 
 .header-right a {
   text-decoration: none;
+  color: inherit;
 }
 
 .intro {
