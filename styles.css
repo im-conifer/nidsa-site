@@ -3,6 +3,7 @@
   color: #231f20;
   margin: 0;
   background-color: #fff5e5;
+  line-height: 1.5;
 }
 
 .red {
@@ -40,7 +41,7 @@ header,
 }
 
 .bold {
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .header-right {
@@ -61,6 +62,9 @@ header,
 
 .main-heading {
   text-transform: uppercase;
+  text-align: center;
+  color: #ec1f27;
+  font-size: 48px;
 }
 
 .main-content {
@@ -90,9 +94,15 @@ ol {
   align-items: center;
   gap: 5px;
 }
+
 figcaption {
   margin: 0;
   font-style: italic;
+}
+
+p,
+ol {
+  margin: 0 20px;
 }
 
 @media (width <= 960px) {
